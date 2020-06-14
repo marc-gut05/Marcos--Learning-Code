@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My test page</title>
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+      <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     <h1>Advanced Text Formatting</h1>
+      <h2>Description Lists</h2>
+      <p>This is mainly used to separate terms with their descriptions. The term &lt;dt&gt; stands for <strong>description term</strong> while &lt;dd&gt; stands for <storng>description definiton</storng>.
+      <br><br>
+      For example:
+      </p>
+      <img src="Pictures/Description%20List%20Example.PNG" width="500px">
+      <p>Here is an example of the list when the example above is implemented within the html document itself.</p>
+      
+      <dl>
+        <dt>soliloquy</dt>
+            <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
+        <dt>monologue</dt>
+            <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
+        <dt>aside</dt>
+            <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
+      </dl>
+      
+     <h2>Blockquotes</h2>
+      <p>Th purpose of blockquotes is to cite an entire block level of content such as paragraphs or lists by including a URL of the source.<br><br> Below is how a blockquote is represented within the browser</p>
+      
+      <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+      <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+    Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+      </blockquote>
+      
+      <p>Below is an example of how the blockquote is represented in the text editor.</p>
+      
+      <img src="Pictures/Blockquote%20example.PNG" width="700">
+      
+      <h2>Inline Quotations</h2>
+        <p>Inline quotations serve the same purpose as block quotes, but represents itself differently within the browser. Using the &lt;q&gt; element within the text editor wraps whatever is written within the element in quotations.<br><br>Below is an example of how Inline Quotatios represents itself in the browser.</p>
+      
+      <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+for short quotations that don't require paragraph breaks.</q></p>
+      
+      <p>Below is how Inline Quotations are written in the text editor.</p>
+      <img src="Pictures/Inline%20Quote%20example.PNG" width="700px">
+      
+      <h2>Citations</h2>
+      <p>Citations are an important part of all information transfer. Having robust information displayed on your website is important, but allowing for there to be a clear path to the source that informed the interpretation is essential to creating trust and maintaining integrity. The need for citations is not only essential in collegiate writing, but in everyday life. Interpretations are important, but facts are paramount in all instances of media, literature, and conversation. <br><br></p>
+      <p>Unfortunately for readers of the website, browsers can not do much with included citations. Broswers do not display these citations, so it is important to incorporate these citations in a different fashion.<br><br>Instead of using the &lt;cite&gt; element to include a citation within the browser, we will use the &lt;a&gt; (anchor) element to create a hyperlink attached to a piece of text.<br><br> Below is an example of incorporating a link into a line of text.</p>
+      
+      <p>According to the <a href="https://www.census.gov/popclock/" target="_blank">United States Census Bureau</a> the United States population stands at just below 330 million people, with one birth occuring nearly every 8 seconds, one death occuring every 12 seconds, an addition of one international migrant every 46 seconds, and a net gain of one person every 17 seconds.<br><br> 
+      The United States Census also states that the population of <a href="https://www.census.gov/quickfacts/fact/table/TX/PST045219#" target="_blank">Texas</a> as of July 1st, 2019 is estimated to be just under 29 million consisting of <strong>12.6%</strong> being persons 65 years and over, <strong>25.8%</strong> being persons under the age of 18, and <strong>7.1%</strong> being persons under the age of 5. This website does not include a percentage of people ages 18 through 65, but using arithmetic we can deduce the percentage for that age range. <br><br>
+      First, we will add the percentage of persons 65 and over with persons under 18 years of age. However, we will <strong>not</strong> add percentage of persons under 5 years, because it is included within the persons under 18 years. Given that 25.8% and 12.6% equals 38.4%, we can subtract that from 100% and reveal that <strong>61.6%</strong> of the population in Texas is comprised of persons between the ages of 17 and 65.</p>
+      
+      <p>Below is how the code for the citations section was written within the text editor.</p>
+      
+      <img src="Pictures/Hyperlinks%20as%20citations.PNG" width="500px">
+      
+  </body>
+</html>
